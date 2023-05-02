@@ -1,6 +1,8 @@
-import './App.css'
+// import './App.css'
 import { Estructura } from './components/Estructura'
 import { Navbar } from './components/Navbar'
+import { useState } from 'react'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,9 +13,10 @@ function App() {
         <div>
            <Navbar/>
         </div>
+        
         <div>
          <Estructura/>
-        </div>
+        </div> 
       </div>
       
     </>
